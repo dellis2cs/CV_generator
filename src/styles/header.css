@@ -1,0 +1,13 @@
+.headerDiv {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  background-color: black;
+  color: white;
+  height: 125px;
+  align-items: center;
+}
+
+.headerText {
+  font-size: 38px;
+}

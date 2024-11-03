@@ -1,0 +1,64 @@
+.inputCard {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  max-width: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputField {
+  padding: 8px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/* CSS */
+.submitButton {
+  background-color: rgba(51, 51, 51, 0.1);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 0.25s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submitButton:hover {
+  transform: scale(1.1);
+}
+
+.cvDiv {
+  display: flex;
+  gap: 20px;
+}
+
+.cvContainer {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 70%;
+  padding: 20px;
+}
+
+.infoHeader {
+  text-align: center;
+}

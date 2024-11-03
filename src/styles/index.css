@@ -1,0 +1,20 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
